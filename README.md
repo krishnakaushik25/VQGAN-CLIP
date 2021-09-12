@@ -1,6 +1,6 @@
 ---
 title: VQGAN CLIP
-emoji: 💩
+emoji: 😄
 colorFrom: green
 colorTo: pink
 sdk: gradio
