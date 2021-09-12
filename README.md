@@ -44,5 +44,5 @@ The path file is app.py which is based on gradio.
 + Long, descriptive prompts can have surprisingly pleasant effects: [Reddit post](https://www.reddit.com/r/MediaSynthesis/comments/oej9qc/gptneo_vqganclip/)
 + [Unreal engine trick](https://twitter.com/arankomatsuzaki/status/1399471244760649729?s=20)
 + [Appending "by James Gurney" for stylization](https://moultano.wordpress.com/2021/07/20/tour-of-the-sacred-library/)
-+ [Rotation and zoom effect with VQGAN+CLIP and RIFE](https://www.reddit.com/r/MediaSynthesis/comments/oos5xu/rotate_and_zoom_effect_with_vqganclip_and_rife/
++ [Rotation and zoom effect with VQGAN+CLIP and RIFE](https://www.reddit.com/r/MediaSynthesis/comments/oos5xu/rotate_and_zoom_effect_with_vqganclip_and_rife/)
 + [The Streamlit version of VQGAN-CLIP](https://github.com/tnwei/vqgan-clip-app)
