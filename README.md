@@ -6,11 +6,16 @@ VQGAN-CLIP has been in vogue for generating art using deep learning. Searching t
 
 Huge Thanks to the creators for sharing detailed explained notebooks on Google Colab, the VQGAN-CLIP technique has been very popular even among the arts communities.
 
-Originally made by [Katherine Crowson](https://github.com/crowsonkb). The original BigGAN+CLIP method was by [advadnoun](https://twitter.com/advadnoun). 
+Originally made by [Katherine Crowson](https://github.com/crowsonkb). The original BigGAN+CLIP method was by [advadnoun](https://twitter.com/advadnoun).Special thanks to [Ahsen Khaliq](https://huggingface.co/akhaliq) for gradeio code.
 
 The original colab Notebook [Link](https://colab.research.google.com/drive/1ZAus_gn2RhTZWzOWUpPERNC0Q8OhZRTZ)
 
 [Taming Transformers Github Repo](https://github.com/CompVis/taming-transformers) and [CLIP Github Repo](https://github.com/openai/CLIP)
+
+
+This simple Gradeio app for generating VQGAN-CLIP images on a local environment. Screenshot of the UI as below:
+
+![Screenshot of the UI](docs/ui.jpeg)
 
 ## Setup 
 
