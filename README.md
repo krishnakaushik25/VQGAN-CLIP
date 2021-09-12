@@ -29,10 +29,29 @@ There is no ground rule on how many steps to run to get a good image. Images gen
 
 Less training steps can produce some images which can be very bad.
 
+
 ---
 title: VQGAN CLIP
-emoji: 😄
-colorFrom: green
-colorTo: pink
+emoji: 💩
+sdk: gradio
+app_file: app.py
 pinned: false
 ---
+
+# Configuration
+
+`title`: _string_  
+Display title for the Space
+
+`emoji`: _string_  
+Space emoji (emoji-only character allowed)
+
+`sdk`: _string_  
+Can be either `gradio` or `streamlit`
+
+`app_file`: _string_  
+Path to your main application file (which contains either `gradio` or `streamlit` Python code).  
+Path is relative to the root of the repository.
+
+`pinned`: _boolean_  
+Whether the Space stays on top of your list.
