@@ -10,7 +10,7 @@ Originally made by [Katherine Crowson](https://github.com/crowsonkb). The origin
 
 The original colab Notebook [Link](https://colab.research.google.com/drive/1ZAus_gn2RhTZWzOWUpPERNC0Q8OhZRTZ)
 
-Taming Transformers Github Repo[https://github.com/CompVis/taming-transformers] and [CLIP Github Repo](https://github.com/openai/CLIP)
+[Taming Transformers Github Repo](https://github.com/CompVis/taming-transformers) and [CLIP Github Repo](https://github.com/openai/CLIP)
 
 ## Setup 
 
