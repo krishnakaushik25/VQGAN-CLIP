@@ -15,7 +15,7 @@ The original colab Notebook [Link](https://colab.research.google.com/drive/1ZAus
 
 This simple Gradeio app for generating VQGAN-CLIP images on a local environment. Screenshot of the UI as below:
 
-![Screenshot of the UI](docs/ui.jpeg)
+![Screenshot of the UI](ui.jpg)
 
 ## Setup 
 
