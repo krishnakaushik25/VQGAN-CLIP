@@ -30,6 +30,5 @@ There is no ground rule on how many steps to run to get a good image. Images gen
 Less training steps can produce some images which can be very bad.
 
 
-`app_file`: _string_  
-Path to your main application file (which contains either `gradio` or `streamlit` Python code).  
+`app_file`: Path to your main application file (which contains either `gradio` or `streamlit` Python code).  
 The path file is app.py which is based on gradio.
