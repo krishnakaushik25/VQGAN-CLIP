@@ -1,5 +1,5 @@
 
-## Brief intro
+## Brief introduction
 
 VQGAN-CLIP has been in vogue for generating art using deep learning. Searching the `r/deepdream` subreddit for VQGAN-CLIP yields [quite a number of results](https://www.reddit.com/r/deepdream/search?q=vqgan+clip&restrict_sr=on). Basically, [VQGAN](https://github.com/CompVis/taming-transformers) can generate pretty high fidelity images, while [CLIP](https://github.com/openai/CLIP) can produce relevant captions for images. Combined, VQGAN-CLIP can take prompts from human input, and iterate to generate images that fit the prompts.
 
@@ -29,6 +29,7 @@ The steps for setup are based on the Colab referenced above.
 6. You can select any exampples listed in the app, and enter the text and parameters of your choice, it can take 30 min - 1 hour time for some examples ig the the model training steps are more.
 
 
+
 **How many steps to run VQGAN-CLIP?**
 There is no ground rule on how many steps to run to get a good image. Images generated are also not guaranteed to be interesting. Experiment! 
 
@@ -37,3 +38,11 @@ Less training steps can produce some images which can be very bad.
 
 `app_file`: Path to your main application file (which contains either `gradio` or `streamlit` Python code).  
 The path file is app.py which is based on gradio.
+
+## Further tips / cool variations from the internet
+
++ Long, descriptive prompts can have surprisingly pleasant effects: [Reddit post](https://www.reddit.com/r/MediaSynthesis/comments/oej9qc/gptneo_vqganclip/)
++ [Unreal engine trick](https://twitter.com/arankomatsuzaki/status/1399471244760649729?s=20)
++ [Appending "by James Gurney" for stylization](https://moultano.wordpress.com/2021/07/20/tour-of-the-sacred-library/)
++ [Rotation and zoom effect with VQGAN+CLIP and RIFE](https://www.reddit.com/r/MediaSynthesis/comments/oos5xu/rotate_and_zoom_effect_with_vqganclip_and_rife/
++ [The Streamlit version of VQGAN-CLIP](https://github.com/tnwei/vqgan-clip-app)
