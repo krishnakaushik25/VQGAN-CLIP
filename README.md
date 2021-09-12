@@ -1,4 +1,33 @@
 
+---
+title: VQGAN CLIP
+emoji: 💩
+sdk: gradio
+app_file: app.py
+pinned: false
+
+---
+
+# Configuration
+
+`title`: _string_  
+Display title for the Space
+
+`emoji`: _string_  
+Space emoji (emoji-only character allowed)
+
+`sdk`: _string_  
+Can be either `gradio` or `streamlit`
+
+`app_file`: _string_  
+Path to your main application file (which contains either `gradio` or `streamlit` Python code).  
+Path is relative to the root of the repository.
+
+`pinned`: _boolean_  
+Whether the Space stays on top of your list.
+
+
+
 ## Brief intro
 
 VQGAN-CLIP has been in vogue for generating art using deep learning. Searching the `r/deepdream` subreddit for VQGAN-CLIP yields [quite a number of results](https://www.reddit.com/r/deepdream/search?q=vqgan+clip&restrict_sr=on). Basically, [VQGAN](https://github.com/CompVis/taming-transformers) can generate pretty high fidelity images, while [CLIP](https://github.com/openai/CLIP) can produce relevant captions for images. Combined, VQGAN-CLIP can take prompts from human input, and iterate to generate images that fit the prompts.
@@ -30,28 +59,3 @@ There is no ground rule on how many steps to run to get a good image. Images gen
 Less training steps can produce some images which can be very bad.
 
 
----
-title: VQGAN CLIP
-emoji: 💩
-sdk: gradio
-app_file: app.py
-pinned: false
----
-
-# Configuration
-
-`title`: _string_  
-Display title for the Space
-
-`emoji`: _string_  
-Space emoji (emoji-only character allowed)
-
-`sdk`: _string_  
-Can be either `gradio` or `streamlit`
-
-`app_file`: _string_  
-Path to your main application file (which contains either `gradio` or `streamlit` Python code).  
-Path is relative to the root of the repository.
-
-`pinned`: _boolean_  
-Whether the Space stays on top of your list.
