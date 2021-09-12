@@ -26,8 +26,7 @@ The steps for setup are based on the Colab referenced above.
 3. Install the required Python libraries.Run `pip install -r requirements.txt`
 4. And then Run `python app.py`
 5. Wait for few minutes till it executes and then it shows it is running on localhost ann open it in a browser on http://localhost:7860
-6. You can select any exampples listed in the app, and enter the text and parameters of your choice, it can take 30 min - 1 hour time for some examples if the the model training steps are more.
-
+6. You can select any exampples listed in the app, and enter the text and parameters of your choice, it can take 30 min - 1 hour time for some examples if the the model iterations are more.
 
 
 **How many steps to run VQGAN-CLIP?**
